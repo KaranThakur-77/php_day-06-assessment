@@ -1,3 +1,13 @@
+<?php
+
+// if the user is accessing this page directly then show them the error and die
+// if the file is included elsewhere, then do not show the error.
+if($_SERVER["REQUEST_URI"]  == "/assesment/admin.php") {
+    die("You can not access this page directly.");
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

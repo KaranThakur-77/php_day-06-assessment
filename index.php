@@ -9,15 +9,23 @@
 </head>
 <body>
     <div class="container">
-        <h1 align="center">Login To Proceed</h1>
-    <form action="home.php" method="post">
-        <label for="uname">Username:</label>
-        <input type="text" placeholder="Your name." name="name" class="txtArea"><br>
-        <label for="password">Password:</label>
-        <input type="password" placeholder="Password" name="pass" class="txtArea"><br>
-        <button name="submit" class="btn">Log In</button>
-    </form>
-    <p class="footer">&copy;Karan Thakur@All rights reserved.</p>
+        <div class="content">
+            <h1 align="center">Login To Proceed</h1>
+            <form action="home.php" method="post">
+                <label for="uname">Username:</label>
+                <input type="text" placeholder="Username." name="name" class="txtArea"><br>
+                <label for="password">Password:</label>
+                <input type="password" placeholder="Password." name="pass" class="txtArea"><br>
+                <div class="button">
+                <button name="submit" class="btn">Sign In</button>
+                <button name="submit" class="btn1">Sign Up</button>
+                </div>
+            </form>
+            <p class="footer">&copy;Karan Thakur@All rights reserved.</p>
+        </div>
+        <div class="imgBox">
+                <img src="img.png" alt="image" class="image">
+        </div>
     </div>
 </body>
 </html>
